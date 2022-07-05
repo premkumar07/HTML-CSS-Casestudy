@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>HTML-CSS</title>
+    <style>
+        .skill {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post" id="myForm"> 
+        <table>
+            <tr>
+                <td>Name :</td>
+                <td><input type="text" class="tinp"></td>
+            </tr>
+            <tr>
+                <td>Address :</td>
+                <td><textarea  cols="30" rows="5" style="color: blue;" placeholder="Enter your Address"></textarea></td>
+            </tr>
+            <tr>
+                <td>Professional Skills :</td>
+                <td class="Skill">
+                    <input type="checkbox">Python
+                    <input type="checkbox">Java
+                    <input type="checkbox">C Programming
+                </td>
+            </tr>
+            <td>Gender :</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+        </table>
+            <input type="submit" value="Submit" onclick="myFunction()" style="margin-left: 10px; margin-top: 10px;">
+    </form>
+    <span style="color: green;"><p id="submitted" ></p></span>
+    <script>
+        function myFunction() {
+            alert("You want to submit the form?");
+            <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+            
+        }
+        
+    </script>
+    
+</body>
+</html>
